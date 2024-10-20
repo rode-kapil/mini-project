@@ -1,0 +1,85 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.quiz-content{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: rgb(255, 255, 255);
+    height: 630px;
+    border-radius: 20px;
+}
+
+.userInfo{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(202, 224, 224);
+    border-radius: 20px 0px 0px 20px;
+    line-height:2;
+    display: inline;
+}
+
+.userInfo button{
+    width: 150px;
+    background-color: rgb(151, 12, 12);
+}
+
+.userInfo button:hover{
+    width: 150px;
+    background-color: rgb(82, 7, 7);
+}
+
+.quiz-area{
+    margin-right: 25px;
+    margin-left: 25px;
+    padding-top: 20px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.option-btn{
+    text-align: center;
+}
+
+.option-btn button{
+    background-color: white;
+    color: black;
+    width: 750px;
+    margin-left: 200px;
+}
+.option-btn button:hover{
+    background-color: rgb(244, 239, 239);
+    color: black;
+}
+
+img{
+    border-radius: 50%;
+}
+
+h2{
+    font-size: 40px;
+}
+
+.next-btn{
+    background-color: rgb(151, 12, 12);
+    border: 5px;
+    width: 300px;
+    margin-left: 320px;
+    
+}
+
+.next-btn:hover{
+    background-color: rgb(102, 9, 9);
+    border: 5px;
+}
+
+.queNum{
+    font-size: 20px;
+    font-weight: 500;
+}

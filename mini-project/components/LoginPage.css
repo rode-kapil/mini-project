@@ -1,0 +1,39 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    height: 100vh;
+    background-image: linear-gradient(#D8C7FF, #19006C);
+}
+
+.container{
+    border-radius: 20px;
+}
+
+.form-container{
+    padding: 30px;
+    border-radius: 30px;
+    margin-left: 50px;
+}
+
+.form-container input{
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.form-container select, .form-container select option{
+    padding: 15px;
+    border-radius: 10px;
+}
+
+button{
+    height: 45px;
+    border-radius: 10px;
+}
+
+hr{
+    width: 900px;
+    color: black;
+}
